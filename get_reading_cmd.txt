@@ -1,0 +1,2 @@
+pscp.exe username@remoteHost:/home/pi/Desktop/Programs/sensor/temp.dat f:\Programowanie\rp4\czujnik_temp
+pscp.exe pi@192.168.0.100:/home/pi/Desktop/Programs/sensor/temp.dat f:\Programowanie\rp4\czujnik_temp
