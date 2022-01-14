@@ -23,7 +23,7 @@ int main() {
     while(true){
         time(&rawtime);
         curr_tim = localtime(&rawtime);
-        sensor.read_press_and_temp();
+        sensor.calculate_press_and_temp();
         std::cout <<"current temperature: "<<sensor.get_temperature()<<" °C"<< std::endl;
         std::cout <<"current pressure: "<<sensor.get_pressure() <<" hPa" <<std::endl;
         std::cout <<"estimated altitude: "<<sensor.get_estimated_altitude() <<" m" <<std::endl;
